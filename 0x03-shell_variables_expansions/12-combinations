@@ -1,2 +1,2 @@
 #!/bin/bash
-printf "%s\n" "aa \n" "ab \n" "ac \n" "ad \n" "ae \n" | wc -l |-n 64
+printf "%s\n" {a..z}{a..z} | grep -v "oo"
